@@ -1,0 +1,31 @@
+site_name: DocForge Local
+site_description: Local-first repository documentation CLI (v0.1.3)
+theme:
+  name: material
+  font: false
+
+nav:
+  - Home: index.md
+  - User Guide:
+      - Project Brief: context/project_brief.md
+      - Output Contract: context/output_contract.md
+  - Generated Example Output:
+      - Generated Index: generated/README.md
+      - Project Snapshot: generated/project_snapshot.md
+      - Overview: generated/overview.md
+      - Architecture: generated/architecture.md
+      - Code Structure: generated/code_structure.md
+      - Runtime Entrypoints: generated/runtime_entrypoints.md
+      - Reference Alignment: generated/reference_alignment.md
+      - Agent Instruction Alignment: generated/agent_instruction_alignment.md
+      - README Claim Alignment: generated/readme_claim_alignment.md
+      - Theory Alignment (Deprecated Compatibility): generated/theory_alignment.md
+  - Maintainers:
+      - ADR Index: adr/README.md
+      - ADR 0001: adr/0001-deterministic-facts-and-llm-synthesis.md
+      - Reference Materials Convention: context/methodology/README.md
+      - Routed Alignment Architecture: context/routed_alignment_architecture.md
+      - Release Checklist (v0.1.3): release_checklist_v0_1_3.md
+      - Privacy & Egress Audit: privacy_egress_audit.md
+      - Open-Source Audit: open_source_audit.md
+      - Comparative Analysis: comparative_analysis.md

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use DocForge Local, please cite this software using the metadata below. If a paper for this project is published later, prefer citing the paper in addition to or instead of the software release, as indicated by future updates to this file."
+title: "DocForge Local"
+type: software
+
+authors:
+  - name: "center4aai"
+
+version: "0.1.3"
+license: "MIT"
+
+abstract: >
+  DocForge Local is a local-first CLI for generating repository documentation
+  from deterministic implementation evidence, writing Markdown artifacts, and
+  publishing a local MkDocs Material site. LLM-assisted generation is optional
+  and uses a user-controlled OpenAI-compatible endpoint.
+
+keywords:
+  - repository documentation
+  - docs-as-code
+  - cli
+  - mkdocs
+  - deterministic analysis
+  - software documentation
+  - claim-evidence alignment
+
+url: "https://github.com/center4aai/docforge-local"
+
+date-released: 2026-04-20
