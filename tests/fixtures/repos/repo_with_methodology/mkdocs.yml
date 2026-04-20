@@ -1,0 +1,13 @@
+site_name: fixture-methodology
+nav:
+  - Home: index.md
+  - Generated:
+      - Project Snapshot: generated/project_snapshot.md
+      - Overview: generated/overview.md
+      - Architecture: generated/architecture.md
+      - Reference Alignment: generated/reference_alignment.md
+      - Agent Instruction Alignment: generated/agent_instruction_alignment.md
+      - README Claim Alignment: generated/readme_claim_alignment.md
+      - Theory Alignment: generated/theory_alignment.md
+theme:
+  name: material
